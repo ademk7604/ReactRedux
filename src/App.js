@@ -5,11 +5,12 @@ import HelloReact from "./components/02-hello-react/hello-react";
 import Jsx3 from "./components/03-jsx/jsx3";
 import Jsx4 from "./components/03-jsx/jsx4";
 import Jsx5 from "./components/03-jsx/jsx5";
+import Jsx6 from "./components/03-jsx/jsx6";
 
 const App = () => {
   return (
     <div>
-      <Jsx1 /> 
+      
       {/*  <HelloWorld />
       <HelloReact />
       <Jsx1 /> 
@@ -21,7 +22,7 @@ const App = () => {
       <Jsx5 />
       */}
       {/* yoruma alma shift alt A */}
-      
+      <Jsx6/>
   
     </div>
   );
