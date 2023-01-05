@@ -1,3 +1,4 @@
+import Jsx1 from "./components/03-jsx/jsx1";
 import Jsx2 from "./components/03-jsx/jsx2";
 import HelloWorld from "./components/01-hello-world/hello-world";
 import HelloReact from "./components/02-hello-react/hello-react";
@@ -8,16 +9,20 @@ import Jsx5 from "./components/03-jsx/jsx5";
 const App = () => {
   return (
     <div>
+      <Jsx1 /> 
       {/*  <HelloWorld />
       <HelloReact />
+      <Jsx1 /> 
       <Jsx2 /> 
       
       <Jsx3 />
     
-      <Jsx4 />*/}
-      {/* yoruma alma shift alt A */}
+      <Jsx4 />
       <Jsx5 />
-
+      */}
+      {/* yoruma alma shift alt A */}
+      
+  
     </div>
   );
 };
