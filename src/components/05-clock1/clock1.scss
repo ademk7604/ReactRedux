@@ -1,0 +1,24 @@
+@font-face {
+    font-family:digital ;
+    src: url("./ds-digi.ttf");
+}
+
+.clock-container{
+font-family: digital;
+background-color: black;
+color: rgb(50, 192, 22);
+border-radius: 1rem;
+padding: 1rem;
+font-size: 2rem;
+display: flex;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+/* bu ikisinin calismasi flex direction a bagli . buraya bakilabilir */
+.time{
+    font-size: 5rem;
+
+}
+
+
+}

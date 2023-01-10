@@ -3,6 +3,7 @@ import countries from "./countries.json"
 
 const Jsx6 = () => {
   return (
+    /* bu tag lar stil degil conponent olarak gorur react */
     <table>
         <thead>
             <tr>
@@ -21,8 +22,6 @@ const Jsx6 = () => {
             </tr>
             
            ))}
-
-
 
         </tbody>
     </table>

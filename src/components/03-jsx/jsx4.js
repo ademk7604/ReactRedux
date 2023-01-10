@@ -1,7 +1,7 @@
 import React from "react";
 
 const Jsx4 = () => {
-  const age = 18; /* burayi degistirdigimde asagida mantigi cozer farkli cozumleri verirr */
+  const age = 18; /* burayi degistirdigimde asagida mantigi cozer farkli cozumleri verirr short circuit  */
 
   return (
     <div>

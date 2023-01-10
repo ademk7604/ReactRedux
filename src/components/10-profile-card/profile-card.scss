@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.profile-card{
+    font-family: Poppins;
+    border: 2px solid gray;
+    border-radius: 1rem;
+
+    .header{
+        height: 300px;
+        background-repeat: no-repeat;
+        background-color: cover;
+        background-position: center bottom;
+        border-radius: 1rem 1rem 0 0;
+        position: relative;
+        &::after{ // & header i kastediyor after dedein mi ici bosta olsa content koymaliyiz
+            content: "";
+            background-color: rgb(187, 69, 61);
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            border-radius: 1rem 1rem 0 0;
+        }
+    }
+
+    .content{
+        text-align: center;
+
+
+        .avatar{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-position: center center;
+            margin: 0 auto;
+
+
+        }
+        
+        h2{
+            
+        }
+    }
+
+
+}
