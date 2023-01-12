@@ -16,7 +16,17 @@ import Products from "./components/07-props-1/products";
 import Clock2 from "./components/08-clock2/clock2";
 import Image from "./components/09-image/image";
 import Gallery from "./components/09-image/gallery";
-import ProfileCard from "./components/10-profile-card/profile-car";
+import ProfileCard from "./components/10-profile-card/profile-card";
+import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
+import BootstrapDynamic from "./components/11-bootstrap/bootstrap-dynamic";
+import Icon from "./components/12-icons/icon";
+import Events from "./components/13-events/events";
+import Shop from "./components/14-products/shop";
+import Jsx7 from "./components/03-jsx/jsx7";
+import Stateless from "./components/15-usestate/stateless";
+import Counter from "./components/16-counter/counter";
+import Counter1 from "./components/16-counter/counter1";
+import ProductList from "./components/14-products/product-list";
 
 
 const App = () => {
@@ -46,17 +56,25 @@ const App = () => {
       <Products/>
       <Clock2 textColor="blue" bgColor="yellow" />
       <Image/>
-       <Gallery/>
-
+      <Gallery/>
+      <ProfileCard avatar="profile.jpg" name="Ali Gel" location="Turkey, Istanbul" shot="3" followers="23432" following="234"/>      
+      <BootstrapDynamic/>
+      <BootstrapStatic/>
+      <Icon/>
+      <Events/>
+      <Shop/>
+      <Jsx7/>
+      <Stateless/>
+      <Counter/>
+      <Counter1/>
+      <ProductList/>
       */}
       
-      
-      
-      
-     
-      <ProfileCard avatar="profile.jpg" name="Ali Gel" location="Turkey, Istanbul" shot="3" followers="23432" following="234"/>      
-      
   
+      
+
+
+
     </div>
   );
 };

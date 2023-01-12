@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/scss/bootstrap.scss";
+//import "bootstrap"; stiller icin yukardaki js icin bunu kuruyoruz static y. te bu ikisini kurmaliyiz. 
+// Bu yontem kullanilacaksa ...yorumu al
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
