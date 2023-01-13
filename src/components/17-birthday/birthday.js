@@ -20,6 +20,7 @@ const Birthday = () => {
 
         {people.map( (item)=> 
         <PersonCard {...item} key={item.id} deletePerson={deletePerson}/>)}
+        {/* nesnenin kendisine bagli id yi index olarak vermemiz daha verimli. {item index de her seferinde re-render yapiyor} */}
         <Button variant="danger" onClick={()=> setPeople([])}>Remove All</Button>
         {/* [] ile setpeople i sifir yapabildim. */}
         <Button variant="success" onClick={()=> setPeople(data)}>ReLoad Data</Button>

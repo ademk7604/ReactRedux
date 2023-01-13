@@ -28,10 +28,11 @@ import Counter from "./components/16-counter/counter";
 import Counter1 from "./components/16-counter/counter1";
 import ProductList from "./components/14-products/product-list";
 import Birthday from "./components/17-birthday/birthday";
-import UseEffect from "./components/18-useeffect/useeffect2";
+import UseEffect1 from "./components/18-useeffect/useeffect2";
 import Clock3 from "./components/19-clock3/clock3";
 import UseEffect2 from "./components/18-useeffect/useeffect2";
 import CountryFilter from "./components/20-country-filter/country-filter";
+import State from "./components/15-usestate/state";
 
 
 const App = () => {
@@ -76,15 +77,18 @@ const App = () => {
       <Birthday/>
       <UseEffect1/>
       <Clock3/>
-       <UseEffect2/>
+      <UseEffect2/>
+      <CountryFilter/>
+      <State/>
       */}
       
-  
+      <UseEffect2/>
+      
       
       
       
      
-      <CountryFilter/>
+      
     </div>
   );
 };

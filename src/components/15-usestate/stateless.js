@@ -11,7 +11,7 @@ const Stateless = () => {
         else{
             classNames = "bg-light text-dark p-5";
         }
-        //document.getElementById("switcher").setAttribute("class", classNames);
+       // document.getElementById("switcher").setAttribute("class", classNames);
         console.log(mode);
         console.log(classNames);
      }

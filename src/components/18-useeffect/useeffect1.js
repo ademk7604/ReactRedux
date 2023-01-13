@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button } from 'react-bootstrap';
-const UseEffect1 = (id) => {
+const UseEffect1 = ({id}) => {
     const [message, setMessage] = useState("");
     const [error, setError] = useState("");
 
@@ -24,7 +24,7 @@ const UseEffect1 = (id) => {
         return ()=>{
             console.log(`UNMOUNTING: Bu bolum component hafizadan atilmadan hemen once calistirilir`)
             /* {false $$ <UseEffect/>} bu sekilde, diye app e yazdik calistirdik
-            unmointing ile temizlik yapilir. component hafizadan atildiginda clear yapmamiz lazim bu sekilde */
+            unmointing ile temizlik yapilir. component hafizadan atildiginda clear yapmamiz lazim bu sekilde bestpractic degildir */
         }
     }, []);
 
