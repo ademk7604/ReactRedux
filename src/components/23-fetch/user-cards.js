@@ -10,13 +10,30 @@ const UserCards = () => {
     .then((data) => useState(data)); */ /* burdan cevap gelmeden return render ediliyor ansenkron yapi. 
     burda surekli cagrilacagi icin useEffect icine aldik*/
 
-    useEffect(() => {
+   /*  useEffect(() => {
         fetch("https://63c2f11fe3abfa59bdb61a48.mockapi.io/api/v1/users")
           .then((resp) => resp.json())
           .then((data) => { 
             setUsers(data);
             setLoading(false);
         });
+      }, []); */
+
+      useEffect(() => {
+        setTimeout(() => {
+          //yüklenme zamanı uzarsa gecikme için timeout kullanırız(5sn dönsün sonra data gelsin)
+          fetch("https://63c2f11fe3abfa59bdb61a48.mockapi.io/api/v1/users")
+            .then((resp) => resp.json())
+            .then((data) => {
+              setUsers(data); //data geldikten sonra setLoading'i false'a alıyoruz
+            })
+            .catch((err) => {
+              console.log(err);
+            })
+            .finally(() => {
+              setLoading(false);
+            });
+        }, 5000);
       }, []);
 
       

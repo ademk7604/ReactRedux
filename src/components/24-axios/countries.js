@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
+
 const Countries = () => {
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -9,6 +10,7 @@ const Countries = () => {
     console.log(resp.data);
     setCountries(resp.data);
   };
+  
   useEffect(() => {
     loadData();
   }, []);

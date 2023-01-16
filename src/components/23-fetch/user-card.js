@@ -6,9 +6,7 @@ const UserCard = (props) => {
     <Card>
       <Card.Img variant="top" src={avatar} />
       <Card.Body>
-        <Card.Title>
-          {firstName} {lastName}
-        </Card.Title>
+        <Card.Title>{firstName} {lastName}</Card.Title>
         <Card.Subtitle>{email}</Card.Subtitle>
       </Card.Body>
     </Card>
