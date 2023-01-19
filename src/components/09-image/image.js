@@ -1,5 +1,5 @@
 import React from 'react'
-import norherLights from "../../../src/assets/img/image1.jpg"
+import norherLights from "../../assets/img/image1.jpg"
 const Image = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const Image = () => {
         bu yontemde import var dusunun json veya backend den geliyor resim bize
           require daha faydali. require de ayni zamanda kod calistiginda path de verir
         */}
-         <img src="{norherLights}" alt="" width="300"/>
+         <img src={norherLights} alt="" width="300"/>
 
           <img src={require("../../assets/img/image2.jpg")} alt="" width="300"/>
          

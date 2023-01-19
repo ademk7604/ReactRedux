@@ -8,8 +8,8 @@ const Shop = () => {
   return (
     <div>
         <Header/>
-        <Footer/>
         <ProductList/>
+        <Footer/>
         
     </div>
   )
